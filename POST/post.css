@@ -1,0 +1,82 @@
+/* Estilos Gerais */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #fef9e7;
+}
+
+/* Estilo do formulário */
+#form {
+  background-color: #fff3cd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: #d4ac0d;
+}
+
+/* Estilo das colunas */
+.form-container {
+  display: flex;
+  gap: 20px;
+}
+
+.form-column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+label {
+  color: #8a6d3b;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="number"] {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #d4ac0d;
+  background-color: #fcf3cf;
+  margin-top: 5px;
+}
+
+/* Estilo do botão */
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: #f7dc6f;
+  color: #8a6d3b;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f1c40f;
+}
+
+.link-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 23em;
+  top: 35em;
+  gap: 10px;
+  color: #8a6d3b;
+}

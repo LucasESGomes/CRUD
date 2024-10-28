@@ -1,0 +1,45 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fef9e7;
+    color: #8a6d3b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: #d4ac0d;
+}
+
+/* Estilo da tabela */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff3cd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #d4ac0d;
+}
+
+th {
+    background-color: #f7dc6f;
+    color: #8a6d3b;
+}
+
+tr:nth-child(even) {
+    background-color: #fcf3cf;
+}
+
+tr:hover {
+    background-color: #f1c40f;
+    color: #fff;
+}

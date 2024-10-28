@@ -1,0 +1,37 @@
+{
+  "registro": [
+    {
+      "id": "6d5e",
+      "nome": "Lucas",
+      "sobrenome": "Gomes",
+      "telefone": "11 984342",
+      "rg": "23536847",
+      "cpf": "488093543",
+      "idade": "23",
+      "curso": "ADS",
+      "escola": "Senai"
+    },
+    {
+      "id": "cda3",
+      "nome": "Otavio",
+      "sobrenome": "Vincius",
+      "telefone": "11 9883493",
+      "rg": "26780053",
+      "cpf": "478098457",
+      "idade": "18",
+      "curso": "Mecatronica",
+      "escola": "Senai"
+    },
+    {
+      "id": "8c0f",
+      "nome": "Igor ",
+      "sobrenome": "Teixeira",
+      "telefone": "11 45308345",
+      "rg": "2345645768",
+      "cpf": "65756756879",
+      "idade": "19",
+      "curso": "Eletrica",
+      "escola": "Senai"
+    }
+  ]
+}
